@@ -8,6 +8,7 @@ using namespace std;
 int main()
 {
 	cout << "Hello git" << endl;
+    cout<<"hello clion"<<endl;
 	User a;
 	a.setAccountBalance(0.2);
 	std::cout << a.getAccountBalance();
