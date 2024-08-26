@@ -16,4 +16,3 @@ int main()
 	std::cout << a.getAccountBalance();
 	return 0;
 }
-//杨光进行了修改
