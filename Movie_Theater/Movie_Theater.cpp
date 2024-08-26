@@ -10,7 +10,9 @@ int main()
 	cout << "Hello git" << endl;
     cout<<"hello clion"<<endl;
 	User a;
-	a.setAccountBalance(0.2);
+	a.setAccountBalance(0.444);
+	a.setEmailAddress("114514@gmail.com");
+	std::cout << a.getEmailAddress();
 	std::cout << a.getAccountBalance();
 	return 0;
 }
