@@ -1,4 +1,3 @@
-#pragma once
 //
 // Created by G on 2024/8/26.
 //
@@ -10,7 +9,7 @@
 
 class User {
 private:
-    std::string identity;
+    std::string userID;
     std::string user_name;
     std::string user_gender;
     std::string phone_number;
@@ -18,7 +17,11 @@ private:
     std::string email_address;
     double account_balance; //’Àªß”‡∂Ó
 public:
-    void setIdentity(const std::string& identity);
+    bool login(std::string enterID,std::string enteredPassword);
+
+    void modifyPersonalInfo();
+
+    void setIdentity(const std::string& userID);
 
     void setUserName(const std::string& userName);
 

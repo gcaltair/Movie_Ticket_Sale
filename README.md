@@ -1,4 +1,5 @@
-## Movie_Ticket_Sale
+## 操作文档
+
 ### git操作
 1. 克隆仓库
 
@@ -34,3 +35,12 @@
 
 ----
 
+### 测试
+
+使用`test1.cpp`测试写过的类
+
+https://www.bilibili.com/video/BV1UP411P7Ed/?spm_id_from=333.337.search-card.all.click&vd_source=48967c9da100242a790cef3ee3c6d53c
+
+### 思考
+
+gc:增加选座位功能？

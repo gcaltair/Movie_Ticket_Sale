@@ -4,5 +4,12 @@
 #pragma once
 
 #include <iostream>
+#include <vector>
+#include "User.h"
+#include "Admin.h"
+#include "Theater.h"
+
+extern std::vector<User> usr;
+extern std::vector<Admin> adm;
 
 // TODO: 在此处引用程序需要的其他标头。

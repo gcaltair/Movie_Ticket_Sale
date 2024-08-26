@@ -3,14 +3,27 @@
 #
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (Movie_Theater "Movie_Theater.cpp" "Movie_Theater.h" "User.cpp" "User.h"
-        admin.cpp
-        admin.h
-        Cinema.cpp
-        Cinema.h)
+add_executable (Movie_Theater Movie_Theater.cpp Movie_Theater.h User.cpp User.h
+        Admin.cpp
+        Admin.h
+        Theater.cpp
+        Theater.h
+        Movie.cpp
+        Movie.h
+        Order.cpp
+        Order.h
+)
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Movie_Theater PROPERTY CXX_STANDARD 20)
 endif()
 
 # TODO: 如有需要，请添加测试并安装目标。
+enable_testing()
+
+add_executable(test1
+        test.cpp
+        Order.cpp
+        Order.h)
+
+add_test(test1 test1)

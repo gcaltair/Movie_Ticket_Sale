@@ -3,16 +3,12 @@
 
 #include "Movie_Theater.h"
 #include "User.h"
-using namespace std;
-
+void sign_in(); //登录函数
 int main()
 {
-	cout << "Hello git" << endl;
-    cout<<"hello clion"<<endl;
-	User a;
-	a.setAccountBalance(0.444);
-	a.setEmailAddress("114514@gmail.com");
-	std::cout << a.getEmailAddress();
-	std::cout << a.getAccountBalance();
-	return 0;
+    return 0;
+}
+void sign_in()
+{
+
 }

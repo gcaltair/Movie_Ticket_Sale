@@ -3,9 +3,19 @@
 //
 
 #include "User.h"
+//待实现
+bool User::login(std::string enterID, std::string enteredPassword) {
+    return false;
+}
 
+void User::modifyPersonalInfo() {
+
+}
+
+
+//
 const std::string& User::getIdentity() const {
-    return identity;
+    return userID;
 }
 
 const std::string& User::getUserName() const {
@@ -32,8 +42,8 @@ double User::getAccountBalance() const {
     return account_balance;
 }
 
-void User::setIdentity(const std::string& identity) {
-    User::identity = identity;
+void User::setIdentity(const std::string& userID) {
+    User::userID = userID;
 }
 
 void User::setUserName(const std::string& userName) {
@@ -59,3 +69,6 @@ void User::setEmailAddress(const std::string& emailAddress) {
 void User::setAccountBalance(double accountBalance) {
     account_balance = accountBalance;
 }
+
+
+
