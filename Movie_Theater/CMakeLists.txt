@@ -3,7 +3,7 @@
 #
 
 # 将源代码添加到此项目的可执行文件。
-add_executable (Movie_Theater "Movie_Theater.cpp" "Movie_Theater.h")
+add_executable (Movie_Theater "Movie_Theater.cpp" "Movie_Theater.h" "User.cpp" "User.h")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET Movie_Theater PROPERTY CXX_STANDARD 20)
