@@ -17,9 +17,9 @@ private:
     std::string email_address;
     double account_balance; //账户余额
 public:
-    bool login(std::string enterID,std::string enteredPassword);
+    bool login(std::string enterID,std::string enteredPassword); //登录函数
 
-    void modifyPersonalInfo();
+    void modifyPersonalInfo(); //修改个人数据函数
 
     void setIdentity(const std::string& userID);
 
